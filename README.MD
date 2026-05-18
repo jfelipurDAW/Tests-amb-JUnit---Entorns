@@ -17,8 +17,7 @@
 
 ###
 
-> [!WARNING]
-> Aquest espai ha estat creat respondre una activitat d'Entorns de Desenvolupament.
+> [!WARNING] Aquest espai ha estat creat respondre una activitat d'Entorns de Desenvolupament.
 
 # Parte 1: Entender el código
 ### Antes de escribir tests, responde brevemente:
