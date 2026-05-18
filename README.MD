@@ -17,50 +17,51 @@
 
 ###
 
-> [!WARNING] Aquest espai ha estat creat respondre una activitat d'Entorns de Desenvolupament.
+> [!WARNING] 
+> Aquest espai ha estat creat respondre una activitat d'Entorns de Desenvolupament.
 
-# Parte 1: Entender el código
-### Antes de escribir tests, responde brevemente:
+# Part 1: Entendre el codi
+### Abans d'escriure tests, respon breument:
 
-- ¿Qué devuelve el método si la contraseña es null?
-- ¿Qué devuelve si la contraseña tiene menos de 8 caracteres?
-- ¿Qué devuelve si no tiene ningún número?
-- Escribe un ejemplo de contraseña válida.
-- Escribe un ejemplo de contraseña inválida.
-
-
-# Parte 2: Crear la clase de test
-### Crea una clase llamada `PasswordValidatorTest`.
-Dentro de esta clase deberás crear tests para comprobar los siguientes casos:
-
-- Una contraseña null no es válida.
-- Una contraseña de menos de 8 caracteres no es válida.
-- Una contraseña sin números no es válida.
-- Una contraseña de 8 o más caracteres y con al menos un número sí es válida.
+- Què retorna el mètode si la contrasenya és null?
+- Què retorna si la contrasenya té menys de 8 caràcters?
+- Què retorna si no té cap número?
+- Escriu un exemple de contrasenya vàlida.
+- Escriu un exemple de contrasenya invàlida.
 
 
-# Parte 3: Tests obligatorios
-**Crea los siguientes métodos de test:**
+# Part 2: Crear la classe de test
+### Crea una classe anomenada `PasswordValidatorTest`.
+Dins d'aquesta classe hauràs de crear tests per comprovar els següents casos:
+
+- Una contrasenya null no és vàlida.
+- Una contrasenya de menys de 8 caràcters no és vàlida.
+- Una contrasenya sense números no és vàlida.
+- Una contrasenya de 8 o més caràcters i amb almenys un número sí és vàlida.
+
+
+# Part 3: Tests obligatoris
+**Crea els següents mètodes de test:**
 
 ```java
 @Test
 void nullPasswordShouldBeInvalid() {
     
 }
- 
- 
+
+
 @Test
 void shortPasswordShouldBeInvalid() {
     
 }
- 
- 
+
+
 @Test
 void passwordWithoutNumbersShouldBeInvalid() {
     
 }
- 
- 
+
+
 @Test
 void validPasswordShouldReturnTrue() {
     
@@ -112,4 +113,3 @@ Un documento mostrando todos los tests ejecutándose correctamente en verde.
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jan-felip.github.io)
 
 <div style="padding:20px"></div>
-
