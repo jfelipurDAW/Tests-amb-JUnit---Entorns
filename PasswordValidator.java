@@ -1,3 +1,5 @@
+package junit_test;
+
 public class PasswordValidator {
  
     public boolean isValid(String password) {
