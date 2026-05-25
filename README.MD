@@ -71,7 +71,7 @@ void validPasswordShouldReturnTrue() {
     
 } 
 ```
-**Dins de cada test deuràs:**
+**Dins de cada test hauràs de:**
 
 - Crear un objecte PasswordValidator.
 - Cridar el mètode isValid.
@@ -80,7 +80,7 @@ void validPasswordShouldReturnTrue() {
 ![Prova1](ProvaCorrecte.png)
 
 
-# Parte 4: Provocar errores
+# Part 4: Provocar errors
 Quan tots els tests estiguin en verd, modifica temporalment la classe `PasswordValidator` per provocar errors.
 
 
@@ -103,7 +103,7 @@ Executa els tests un altre cop i respòn:
 
 Després, torna a deixar la classe correctament.
 
-![Prova2](ProvaError.png)
+![Prova2](ProvaErrors.png)
 
 # Entrega
 La clase `PasswordValidator`.
