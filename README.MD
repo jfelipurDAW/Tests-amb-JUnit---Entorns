@@ -24,10 +24,15 @@
 ### Abans d'escriure tests, respon breument:
 
 - Què retorna el mètode si la contrasenya és null?
+  `False`
 - Què retorna si la contrasenya té menys de 8 caràcters?
+  `False`
 - Què retorna si no té cap número?
+  `False`
 - Escriu un exemple de contrasenya vàlida.
+  `Passw0rd`
 - Escriu un exemple de contrasenya invàlida.
+  `Hola`
 
 
 # Part 2: Crear la classe de test
@@ -38,7 +43,6 @@ Dins d'aquesta classe hauràs de crear tests per comprovar els següents casos:
 - Una contrasenya de menys de 8 caràcters no és vàlida.
 - Una contrasenya sense números no és vàlida.
 - Una contrasenya de 8 o més caràcters i amb almenys un número sí és vàlida.
-
 
 # Part 3: Tests obligatoris
 **Crea els següents mètodes de test:**
@@ -67,44 +71,46 @@ void validPasswordShouldReturnTrue() {
     
 } 
 ```
-**Dentro de cada test deberás:**
+**Dins de cada test deuràs:**
 
-- Crear un objeto PasswordValidator.
-- Llamar al método isValid.
-- Comprobar el resultado con assertTrue o assertFalse.
+- Crear un objecte PasswordValidator.
+- Cridar el mètode isValid.
+- Comprobar el resultat amb assertTrue o assertFalse.
+
+![Prova1](ProvaCorrecte.png)
 
 
 # Parte 4: Provocar errores
-Cuando todos los tests estén en verde, modifica temporalmente la clase `PasswordValidator` para provocar errores.
+Quan tots els tests estiguin en verd, modifica temporalment la classe `PasswordValidator` per provocar errors.
 
-Por ejemplo:
+
+Per exemple:
 ```java
 if (password.length() < 8){
   return true;
 }
 ```
-Ejecuta los tests otra vez y responde:
+Executa els tests un altre cop i respòn:
 
-- ¿Qué test falla?
-- ¿Por qué falla?
-- ¿Qué resultado esperábamos?
-- ¿Qué resultado ha dado realmente?
+- Quin test fallarà?
+  `Tots`
+- ¿Por què falla?
+  `Perquè no compleixen els requeriments`
+- ¿Quin resultat esperàvem?
+  `Que fallés`
+- Quin resultat ha donat realment?
+  `Ha fallat`
 
-Después, vuelve a dejar la clase correctamente.
+Després, torna a deixar la classe correctament.
 
-
+![Prova2](ProvaError.png)
 
 # Entrega
-Entrega un proyecto Java con:
-
 La clase `PasswordValidator`.
 La clase `PasswordValidatorTest`.
-Un documento mostrando todos los tests ejecutándose correctamente en verde.
+Un document mostrant tots els tests executant-se correctament en verd.
 
 ---
-#### Pistas
-- No hace falta usar `main`. Los tests se ejecutan desde `JUnit`.
-`
 ###
 
 <div style="padding:20px"></div>
